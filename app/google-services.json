@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "113592302871",
+    "project_id": "yumyum-519af",
+    "storage_bucket": "yumyum-519af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113592302871:android:4395d5001b1037e87c0b52",
+        "android_client_info": {
+          "package_name": "com.example.yumyum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113592302871-dlf5fu8l2i3qauernmeb03ghto4e8gd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yumyum",
+            "certificate_hash": "d8047c8b2fba1cb2f19cd8820b9d75517aad7b59"
+          }
+        },
+        {
+          "client_id": "113592302871-g4gs2k5kkdlag2jnlfe82mvhrstb602c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwY9fiHhI5K1F3Ccfl60H9buCslC9EyT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113592302871-g4gs2k5kkdlag2jnlfe82mvhrstb602c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

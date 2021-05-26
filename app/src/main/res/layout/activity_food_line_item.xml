@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foodpicture"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cook">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/foodpicture"
+            android:id="@+id/foodname"
+            android:text="Food Name"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/material_white"
+            android:background="@color/material_pink_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/foodname"
+            android:id="@+id/foodmaterials"
+            android:text="Food Materials"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:inputType="textMultiLine"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/material_white"
+            android:background="@color/material_pink_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/foodmaterials"
+            android:id="@+id/foodrecipes"
+            android:text="Recipe"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:inputType="textMultiLine"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/material_white"
+            android:background="@color/material_pink_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/foodrecipes"
+            android:id="@+id/foodrecipeslink"
+            android:text="Recipe Link"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/material_white"
+            android:background="@color/material_pink_300"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

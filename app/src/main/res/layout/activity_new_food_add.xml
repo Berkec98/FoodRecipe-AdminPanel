@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/food_edit_name">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/food_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/material_pink_400"
+            android:textColor="@color/material_pink_300"
+            android:hint="Food Name"
+            android:textSize="16sp"
+            android:inputType="text"
+            app:met_baseColor="@color/material_pink_300"
+            app:met_primaryColor="@color/material_pink_300" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/foodmaterials_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Food Materials"
+            android:textColorHint="@color/material_pink_400"
+            android:textColor="@color/material_pink_300"
+            android:textSize="16sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="@color/material_pink_300"
+            app:met_primaryColor="@color/material_pink_300" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipes_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:hint="Recipe"
+            android:textColorHint="@color/material_pink_400"
+            android:textColor="@color/material_pink_300"
+            android:textSize="16sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="@color/material_pink_300"
+            app:met_primaryColor="@color/material_pink_300" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipeslink_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="RecipeLink"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/material_pink_400"
+            android:textColor="@color/material_pink_300"
+            android:textSize="16sp"
+            app:met_baseColor="@color/material_pink_300"
+            app:met_primaryColor="@color/material_pink_300" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btn_food_select"
+                android:text="Select Picture"
+                android:textColor="#fff"
+                android:backgroundTint="@color/themecolor_primary_dark"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btn_food_download"
+                android:text="Download Picture"
+                android:textColor="#fff"
+                android:backgroundTint="@color/themecolor_primary"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
